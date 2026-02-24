@@ -18,3 +18,5 @@ This staging area in the place where git knows that chnages will be done tha las
 
 12. Diff between git rm and git restore
 ans: If you want to move the whole file back to the untracked state, then we do git rm, other wise ir we just want the changes to be moved in working ared or staging area then we do git restore
+
+14 `` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use this following command
