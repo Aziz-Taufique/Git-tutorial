@@ -29,7 +29,7 @@ ans: If you want to move the whole file back to the untracked state, then we do 
 
 18. `gi remote rm <remote name>` -> this command deletes a remote connection
 
-19. `git remote rename <oldname> <newname>` -> rename the remote connection
+19. `git remote rename <oldname> <newname>` -> rename the remote connection.
 
 NOTE : The name of the remote connection is always used to establish communication b/w repositores 
 
