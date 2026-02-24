@@ -20,3 +20,15 @@ This staging area in the place where git knows that chnages will be done tha las
 ans: If you want to move the whole file back to the untracked state, then we do git rm, other wise ir we just want the changes to be moved in working ared or staging area then we do git restore
 
 14 `git commit -m "your commit message"` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use this following command
+
+15. `git remote` -> list down all the remote connection name.
+
+16. Remote connection -> It helps you to link two git repositores for uploading changes from each other
+
+17. `git remote add <name of remote> <link of remote>` -> This command helps us to add a new link to the remote repo and give a name to it
+
+18. `gi remote rm <remote name>` -> this command deletes a remote connection
+
+19. `git remote rename <oldname> <newname>` -> rename the remote connection
+
+NOTE : The name of the remote connection is always used to establish communication b/w repositores 
