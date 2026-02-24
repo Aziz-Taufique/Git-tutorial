@@ -12,3 +12,6 @@ This staging area in the place where git knows that chnages will be done tha las
 6. `git rm --cached <file>` -> moves file back from staging area to working area
 7. `commmit` -> commit is a particular version of a project it captures a snapshot of the prject's staged changes and creates a version out of it.
 8. `git commit` -> registers staging changes to a commit
+9. `git log` -> list downs all the commits of the prepository. If you want to exif from git log press `q`.
+10. `git restore <file>` => It removes all files changes form the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Insted of deleting every change line by line, we can restore it or you can say restore last clean version of file.
+
