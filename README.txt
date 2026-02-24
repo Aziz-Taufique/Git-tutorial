@@ -15,3 +15,6 @@ This staging area in the place where git knows that chnages will be done tha las
 9. `git log` -> list downs all the commits of the prepository. If you want to exif from git log press `q`.
 10. `git restore <file>` => It removes all files changes form the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Insted of deleting every change line by line, we can restore it or you can say restore last clean version of file.
 11. `git restore --staged <file>`-> it removes file from staging area to the working area. this only works if changes arein your staging area
+
+12. Diff between git rm and git restore
+ans: If you want to move the whole file back to the untracked state, then we do git rm, other wise ir we just want the changes to be moved in working ared or staging area then we do git restore
